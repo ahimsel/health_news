@@ -13,7 +13,7 @@ from datetime import timedelta
 # import re #regular expressions looks for string patterns #print(re.findall(r'\$[0-9,.]+', page.text))
 
 keywords = re.compile(
-    r'\b(.*)Covid(.*)\b | \b(.*)vaccine(.*)\b | \b(.*)CDC(.*)\b | \b(.*)Janssen(.*)\b | \b(.*)Pfizer(.*)\b | \b(.*)Moderna(.*)\b | \b(.*)booster(.*)\b | \b(.*)omicron(.*)\b | \b(.*)variant(.*)\b | \b(.*)third dose(.*)\b',
+    r'\b(.*)Covid(.*)\b | \b(.*)vaccine(.*)\b | \b(.*)CDC(.*)\b | \b(.*)Janssen(.*)\b | \b(.*)Pfizer(.*)\b | \b(.*)Moderna(.*)\b | \b(.*)booster(.*)\b | \b(.*)omicron(.*)\b | \b(.*)variant(.*)\b | \b(.*)monkey(.*)\b',
     re.IGNORECASE)
 
 TodaysDate = date.today()
